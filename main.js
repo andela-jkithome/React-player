@@ -1,0 +1,1 @@
+require('electron-reload')(__dirname);
