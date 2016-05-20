@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 
 // Import Search Component
 import Search from './components/search.component';
+import Details from './components/details.component';
 
 // Component Class
 class App extends React.Component {
@@ -12,7 +13,10 @@ class App extends React.Component {
     // render method returns JSX template
     render() {
         return (
-          <Search />
+          <div>
+            <Search />
+            <Details title={'Track title'} />
+          </div>
         );
     }
 }
